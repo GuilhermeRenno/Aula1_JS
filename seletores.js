@@ -4,38 +4,32 @@ function abrirMensagem(){
 }
 class carro {
 
-    constructor(marca_, cor_, modelo_) {
+    constructor(Marca, Cor, Modelo) {
 
-        this.cor_ = cor_;
+        this.cor = Cor;
 
-        this.marca_ = marca_;
+        this.marca = Marca;
 
-        this.modelo_ = modelo_;
+        this.modelo = Modelo;
 
     }    
+     getinformacoes() {
 
- 
+        document.write("<br> Cor: " + this.cor);
 
-    getinformacoes() {
+        document.write("<br> Marca: " + this.marca);
 
-        document.write("<br> Cor: " + this.cor_);
-
-        document.write("<br> Marca: " + this.marca_);
-
-        document.write("<br> Modelo: " + this.modelo_);
+        document.write("<br> Modelo: " + this.modelo);
 
     }
-
+    getCor(){
+        return this.Cor;
+    }
 }
 
  
-
 let carro1 = new carro("Fiat", "chumbo", "Siena");
 
 let carro2 = new carro("X6", "preto", "BMW");
 
  
-
-carro1.getinformacoes();
-
-carro2.getinformacoes();
