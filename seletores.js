@@ -22,11 +22,28 @@ class carro {
         document.write("<br> Modelo: " + this.modelo);
 
     }
-
+    getCor(){
+        return this.Cor;
+    }
+    setCor(_cor){
+        this.Cor = _cor;
+    }
+    getMarca(){
+        return this.Marca;
+    }
+    setMarca(_marca){
+        this.Marca = _marca;
+    }
+    getModelo(){            
+        return this.Modelo;
+    }
+    setModelo(_modelo){
+        this.Modelo = _modelo;
+    }
 }
 
- 
 
+ 
 let carro1 = new carro("Fiat", "chumbo", "Siena");
 
 let carro2 = new carro("X6", "preto", "BMW");
