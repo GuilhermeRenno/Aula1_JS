@@ -1,0 +1,24 @@
+body{
+    font:18pt normal Arial;
+    background-color: #080d4680;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+footer{
+    text-align: center;
+}
+#imagem{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}

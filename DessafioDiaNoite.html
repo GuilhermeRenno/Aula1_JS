@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <Style>
-        body{
-            background-color: aqua;
-        }
-
-
-    </Style>
+    <script src="scriptDN.js"></script>
+    <link rel="stylesheet" href="STYLE.CSS">
 </head>
-<body>
-    <div ontimeupdate=""></div>
+<body onload="carregar()">
+    
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">Horário será exibido aqui</div>
+        <div>
+            <img id="imagem"src="imagemNoite.jpg">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Ferramentas de desenvolvimento Web</p>
+    </footer>
 </body>
 </html>
